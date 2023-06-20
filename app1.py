@@ -6,7 +6,7 @@ class MyApp(App):
     TITLE = 'Meu App'
 
     BINDINGS = [
-        ('t', 'change_theme()', 'Mudar o tema')
+        ('t', 'change_theme()', 'Mudar o tema!')
     ]
 
     def action_change_theme(self):
